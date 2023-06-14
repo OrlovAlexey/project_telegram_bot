@@ -19,6 +19,7 @@ class States(StatesGroup):
 
 
 TG_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
+TG_TOKEN = "1021175427:AAHexMUwuLN5dq-fl6yXTc1Uk5jhi2karbY" # my token, use your please
 
 QUALITY = {
     1: '128x128',
