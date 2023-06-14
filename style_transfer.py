@@ -16,7 +16,7 @@ def style_transfer(cont_img, style_img, imsize=128, num_steps=500, start_with_wh
         transforms.ToTensor()])
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+    
     def image_loader(image_name):
         image = Image.open(image_name)
         image = loader(image).unsqueeze(0)
